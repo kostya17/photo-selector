@@ -1,7 +1,7 @@
 ## photo-selector
 
 
-#### Photo-selector is solution to implement multiple photo selrction from gallery
+#### Photo-selector is solution to implement multiple photo selection from gallery
 
 
 **How to use:**
