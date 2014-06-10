@@ -14,9 +14,18 @@ startActivityForResult(pickImage, PICK_IMAGES_REQUEST);
 
 
 
-2.Override `onActivityResult(int requestCode, int resultCode, Intent data)` method in your activity
-and get list of images like this 
-`mImages.addAll((ArrayList<Image>) data.getSerializableExtra("selected"));`
+2.Override
+```onActivityResult(int requestCode, int resultCode, Intent data)```
+
+method in your activity and get list of images like this 
+
+```mImages.addAll((ArrayList<Image>) data.getSerializableExtra("selected"));```
 
 
-##### In `sample` folder you can find `SimpleAdapter` and `MainActivity` to see how it works.
+#### In `sample` folder you can find `SimpleAdapter` and `MainActivity` to see how it works.
+
+Instead of my ***ImageViewLoader*** you can use ***Picasso*** or ***UIL***, for example.
+
+#### Screenshot
+
+![photo-selector] (https://github.com/xajker/photo-selector/blob/master/screen.png "photo-selector")
